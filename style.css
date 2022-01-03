@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
 }
+
 body{
     position: relative;
     font-family: "adobe-clean", sans-serif;
@@ -9,12 +10,14 @@ body{
     padding: 0;
     margin: 0;
 }
+
 .continer{
     width:78.5vw;
     height:20vh;
     margin:2rem 0rem 0.1rem 10rem;
     position:relative;
 }
+
 .index_header{
     height:8rem;
     display: flex;
@@ -22,76 +25,83 @@ body{
     align-items: center;
     margin:3rem 0 0 0;
 }
+
 #left_index_header{
     font-size:4.5rem;
     font-weight:700;
     color: rgba(25, 66, 179, 0.801);
 }
+
 #right_index_header{
     display:flex;
     align-items: center;
     justify-content: center;
 }
+
 #right_index_header> p{
   font-size:2.3rem;
   font-family: 'Roboto', sans-serif;
   color:gray;
 }
+
 .index_plus{
     color: rgba(25, 66, 179, 0.801);
     margin:0 0px 0 0;
     font-size:2.8rem;
 }
+
 .index_span1{
     font-family: 'Roboto', sans-serif;
     font-weight:100;
     color:gray;
 }
+
 .index_plus:hover{
   cursor:pointer;
 }
 
-
-
-/* modal */
- .modal-window {
-    position: fixed;
-    background-color: rgba(255, 255, 255, 0.25);
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 999;
-  }
-  .hidden{
-    display:none;
-  }
-  .hidden2{
-    display:none;
-  }
-
-  .index3_box{
-    width:30rem;
-    height:15rem;
-    background-color: white;
-    border:2px solid rgba(25, 66, 179, 0.801);
-    border-radius:1rem;
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-    box-shadow:0.4rem 0.4rem 0.5rem 0.1rem rgb(211, 211, 211);
-    position:absolute;
-    bottom:0;
-    left:0;
-    right: 0;
-    top: 0;
-    margin: auto;
+.modal-window {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.25);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
 }
+
+.hidden{
+  display:none;
+}
+
+.hidden2{
+  display:none;
+}
+
+.index3_box{
+  width:30rem;
+  height:15rem;
+  background-color: white;
+  border:2px solid rgba(25, 66, 179, 0.801);
+  border-radius:1rem;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  box-shadow:0.4rem 0.4rem 0.5rem 0.1rem rgb(211, 211, 211);
+  position:absolute;
+  bottom:0;
+  left:0;
+  right: 0;
+  top: 0;
+  margin: auto;
+}
+
 .index3_box>p{
     font-size:1.5rem;
     color: rgba(25, 66, 179, 0.801);
 }
+
 .index3_box>p~input[type=text]{
     width:20rem;
     height:2.5rem;
@@ -100,16 +110,18 @@ body{
     margin:0.5rem 0 1rem 0;
     box-shadow:0.1rem 0.1rem 0.3rem 0.09rem rgb(211, 211, 211);
 }
+
 .add_button{
-    width:6.5rem;
-    height:2.6rem;
-    background-color:rgba(25, 66, 179, 0.801);
-    color: white;
-    border:0;
-    border-radius:1.2rem;
-    font-size:1.4rem;
-    cursor: pointer;
+  width:6.5rem;
+  height:2.6rem;
+  background-color:rgba(25, 66, 179, 0.801);
+  color: white;
+  border:0;
+  border-radius:1.2rem;
+  font-size:1.4rem;
+  cursor: pointer;
 }
+
 .add_button2{
   width:6.5rem;
   height:2.6rem;
@@ -142,7 +154,6 @@ body{
   z-index: 5;
 }
 
-
 .index_box{
   width:17rem;
   height:25rem;
@@ -151,12 +162,14 @@ body{
   border-radius:1rem;
   box-shadow:0.6rem 0.6rem 0.8rem 0.1rem rgb(211, 211, 211);
 }
+
 .index_box>p:first-child{
   font-size:1.9rem;
   color: rgba(25, 66, 179, 0.801);
   text-align: center;
   margin:1.8rem 0 0.5rem 0;
 }
+
 .index_box>hr{
   width:80%;
   float:right;
@@ -174,12 +187,14 @@ body{
   font-size:1.5rem;
   letter-spacing:1px;
 }
+
 .task_icon{
   display:flex;
   position: relative;
   top:0.1rem;
   left:12rem;
 }
+
 .task_plus{
   color:#1976d2;
   font-size:1.8rem;
@@ -194,9 +209,6 @@ body{
   cursor: pointer;
 }
 
-
-
-/* continer_box */
 #continer_box{
   margin:0.2rem 3rem 0 10rem;
   width:80%;
@@ -214,6 +226,7 @@ body{
 .no_found_img{
   margin:2rem 0 0 40rem;
 }
+
 .no_item{
   color:rgb(12, 16, 238);
   opacity:0.8;
@@ -223,6 +236,7 @@ body{
   font-family: 'Roboto', sans-serif;
   font-size:3.5rem;
 }
+
 .title{
   cursor: pointer;
 }
@@ -240,14 +254,17 @@ body{
   font-size:2.5rem;
   margin:auto;
 }
+
 .back_btn{
   color:rgba(255, 0, 0, 0.774);
   cursor:pointer;
 }
+
 .new_page_plusBtn{
   color:#1976d2;
   cursor:pointer;
 }
+
 .new_page_title{
   color:rgba(25, 66, 179, 0.801);
   font-size:4rem;
@@ -258,17 +275,3 @@ body{
   flex-direction:row;
   justify-content:space-between;
 }
-
-/* #left_hr{
-  transform:rotate(90deg);
-  width:90;
-  border:0.6px solid tomato;
-  height:0.1px;
-}
-#right_hr{
-  transform:rotate(90deg);
-  width:90%;
-  border:0.6px solid tomato;
-  float:right;
-  height:0.1px;
-} */
